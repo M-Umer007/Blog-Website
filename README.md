@@ -28,4 +28,43 @@ A static, responsive blog website built using modern web technologies. This proj
 │   └── utils/      # Utility functions
 ├── package.json    # Project dependencies
 └── README.md       # Project documentation
+```
+## 📦 Installation
+
+To get started with this project, follow these steps:
+
+### Clone the repository:
+
+git clone https://github.com/M-Umer007/Blog-Website.git
+cd Blog-Website
+
+### Install dependencies:
+
+npm install
+
+### Run the development server:
+npm run dev
+Open http://localhost:3000 to view it in the browser.
+
+### 🌐 Deployment
+This project can be deployed on platforms like Vercel or Netlify. For example, deploy to Vercel using:
+
+npx vercel
+🤝 Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Commit your changes (git commit -m "Added a new feature").
+Push the branch (git push origin feature-name).
+Open a pull request.
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📧 Contact
+If you have any questions or feedback, feel free to reach out:
+
+GitHub: M-Umer007
+Email: umeraijaz32@gmail.com
+Made with ❤️ by M-Umer007
 
