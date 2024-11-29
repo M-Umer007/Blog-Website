@@ -7,7 +7,7 @@ export default function About() {
             About Me
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-3xl">
-            I'm a passionate developer, constantly learning, building, and striving to create solutions that make a difference.
+            I&apos;m a passionate developer, constantly learning, building, and striving to create solutions that make a difference.
           </p>
         </header>
   
@@ -15,7 +15,7 @@ export default function About() {
         <section className="p-6 border rounded-lg shadow-md max-w-4xl w-full">
           <h2 className="text-2xl font-semibold mb-4">Who I Am</h2>
           <p className="text-base md:text-lg leading-relaxed">
-            Hi! I'm Muhammad-Umer, a self-taught developer specializing in web technologies like HTML, CSS, TypeScript, and Next.js. 
+            Hi! I&apos;m Muhammad-Umer, a self-taught developer specializing in web technologies like HTML, CSS, TypeScript, and Next.js. 
             I thrive on creating user-centric applications and constantly pushing the boundaries of what I can achieve.
           </p>
         </section>

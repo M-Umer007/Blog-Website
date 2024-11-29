@@ -25,7 +25,7 @@ export default function Slug (){
               <div className="p-8 rounded-lg shadow-lg text-center max-w-md w-full z-10">
                 <h1 className="text-4xl font-bold text-white mb-4">Oops! Something went wrong.</h1>
                 <p className="text-lg text-white mb-4">
-                  We couldn't find the item you're looking for. Maybe try a different search?
+                  We couldn&apos;t find the item you&apos;re looking for. Maybe try a different search?
                 </p>
                 <button 
                   onClick={() => window.history.back()} 

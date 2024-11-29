@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { buttonVariants } from "@/components/ui/button"
-import Featuredcmp from "@/components/Featuredcmp/featured"
+
 import itemss from '../components/Featuredcmp/featured';
 import { CarouselPlugin } from "@/components/caraousual/Carausual"
 import Link from "next/link"
@@ -9,7 +8,7 @@ import Image from "next/image"
 export default function Page() {
 
 
-  let renderingthing =  itemss.map((items)=>(
+  const renderingthing =  itemss.map((items)=>(
        
     <li key={items.id} className="group relative rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50">
      <div className="aspect-[672/494] relative rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
@@ -42,7 +41,7 @@ export default function Page() {
           <p className="mt-6 text-[2.5rem] leading-none sm:text-6xl tracking-tight font-bold text-slate-900 dark:text-white">
            Welcome to my Website.</p>
            <p className="mt-4 text-lg text-slate-600 dark:text-slate-400">
-  Welcome to my little corner of the web. Here, I share my thoughts, experiences, and ideas----<a className="font-semibold border-b border-sky-300 text-gray-900 hover:border-b-2 dark:text-white dark:border-sky-400" href="/showcase/tailwind">all crafted with Tailwind's simplicity</a>.
+  Welcome to my little corner of the web. Here, I share my thoughts, experiences, and ideas----<a className="font-semibold border-b border-sky-300 text-gray-900 hover:border-b-2 dark:text-white dark:border-sky-400" href="/showcase/tailwind">all crafted with Tailwind&apos;s simplicity</a>.
   </p>
       </div>
 
