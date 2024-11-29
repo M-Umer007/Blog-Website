@@ -7,7 +7,7 @@ export default function Featuredcmp(){
     // let fullObject=itemss.map((value)=>{ return value })
    
    
-    let renderingthing =  itemss.map((items)=>(
+    const renderingthing =  itemss.map((items)=>(
        
        <li key={items.id}>
         <div>
